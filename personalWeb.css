@@ -60,3 +60,16 @@ p{
     border-radius: 700px;
     border-style:dashed;
 }
+.about-me-text2{
+    font-family: "Lucida Sans";
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top : 20px;
+    color: white;
+    line-height: 35px;
+}
+.UTM{
+    color: maroon;
+}
