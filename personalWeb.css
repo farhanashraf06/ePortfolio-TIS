@@ -38,7 +38,7 @@ p {
     align-items: center;
 }
 
-.githublogo {
+.githublogo , .phytonlogo {
     width: 50px;
 }
 
@@ -70,12 +70,12 @@ p {
     margin-top: 5px;
 }
 
-.span1 {
+.span1, .span2, .span3 {
     color: red;
 }
 
 .aboutme {
-    width: 625px;
+    width: 650px;
     margin: 50px auto;
     text-align: center;
 }
@@ -96,7 +96,26 @@ p {
     margin-top: 20px;
     line-height: 35px;
 }
-
+.about-me-text3 {
+    font-family: "Lucida Sans";
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.about-me-text4 {
+    font-family: "Lucida Sans";
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    line-height: 40px;
+}
 .UTM {
     color: maroon;
+}
+@media (max-width: 1000px) {
+    .aboutme-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
