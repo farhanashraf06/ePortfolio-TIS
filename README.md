@@ -34,7 +34,7 @@ This e-portfolio serves as a centralized platform to present:
 
 ## 📸 Preview
 
-> *(Optional)* Add screenshots or GIFs of your website here
+<img src="picture/Screenshot 2025-12-29 211630.png">
 
 ```markdown
 ![Homepage Preview](./images/homepage.png)
