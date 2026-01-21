@@ -135,6 +135,43 @@ p {
     margin-top: 15px;
     line-height: 25px;
 }
+.course-card {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.course-title {
+    font-family: "Gill Sans";
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.assignment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.assignment-list li {
+    margin: 10px 0;
+}
+
+.assignment-list a {
+    font-family: "Lucida Sans";
+    font-size: 22px;
+    color: bisque;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.assignment-list a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
     .aboutme-wrapper {
         flex-direction: column;
